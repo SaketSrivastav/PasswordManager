@@ -1,0 +1,115 @@
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TableRow android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_gravity="center_horizontal">
+  	<TextView  
+		android:layout_height="wrap_content"
+		android:text="@string/update_title"
+		android:textSize="20dp"
+		android:padding="10sp"
+		android:layout_weight="1"
+		android:layout_width="match_parent" 
+		android:gravity="center_horizontal"/> 
+  </TableRow>
+  <TableRow>
+  			<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/update_txt_pass_key"
+			    android:gravity="center_horizontal"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="0"
+		    	/>
+		     <AutoCompleteTextView 
+		     	android:id="@+id/update_key"
+			   	android:layout_width="fill_parent" 
+			   	android:minWidth="150sp"
+				android:layout_height="wrap_content"
+				android:inputType="text"
+				android:layout_weight="1"
+				android:textSize="15sp"
+		     />
+		     
+  </TableRow>
+  
+  <TableRow android:id="@+id/row_username" android:visibility="invisible">
+  			<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/update_txt_username"
+			    android:gravity="center_horizontal"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="0"
+		    	/>
+		     <EditText 
+		     	android:id="@+id/update_username"
+			   	android:layout_width="fill_parent" 
+			   	android:minWidth="150sp"
+				android:layout_height="wrap_content"
+				android:inputType="text"
+				android:layout_weight="1"
+				android:textSize="15sp"
+		     />
+  </TableRow>
+  
+  <TableRow android:id="@+id/row_password" android:visibility="invisible">
+  			<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/update_txt_password"
+			    android:gravity="center_horizontal"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="0"
+		    	/>
+		     <EditText
+			   	android:id="@+id/update_password"
+			   	android:layout_width="fill_parent" 
+			   	android:minWidth="150sp"
+				android:layout_height="wrap_content"
+				android:inputType="text"
+				android:layout_weight="1"
+				android:textSize="15sp"
+				/>
+  </TableRow>
+  
+  <TableRow
+  	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:gravity="center_horizontal">
+  			<Button
+  				android:id="@+id/update_get_data"
+  				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/update_get_data_btn"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="2"
+  			/>
+  			<Button
+  				android:id="@+id/update_btn_Back"
+  				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/btn_Back"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="1"
+  			/>
+  			<Button
+  				android:id="@+id/update_btn"
+  				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/update_btn"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="0"
+			    android:visibility="invisible"
+  			/>
+  </TableRow>
+  
+</TableLayout>

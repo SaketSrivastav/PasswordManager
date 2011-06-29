@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Password Manager</string>
+    <string name="app_welcome">Your Password Manager</string>
+    <string name="txt_master_pass">New Master Password</string>
+    <string name="txt_old_master_pass">Current Password</string>
+    <string name="btn_curr_master_pass">Verify</string>
+    <string name="btn_new_master_pass">Change Password</string>
+    <string name="txt_change_master_pass_title">Change Master Password</string>
+    <string name="btn_change_master">Change</string>
+    <string name="btn_change_master_pass">Change Master Password</string>
+    <string name="btn_delete">Delete Password</string>
+    <string name="btn_insert">Insert</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_Enter">Enter</string>
+    <string name="txt_master_password">Master Password</string>
+    <string name="insert_txt_password">Enter Password</string>
+    <string name="insert_btn">Insert Password</string>
+    <string name="insert_txt_username">Username</string>
+    <string name="insert_txt_pass_key">Enter Key</string>
+    <string name="update_btn">Update</string>
+    <string name="update_key">Update Key</string>
+    <string name="delete_key">Delete Key</string>
+    <string name="delete_btn">Delete</string>
+    <string name="btn_Back">Back</string>
+    <string name="btn_fetchAll">Display All</string>
+    <string name="insert_title">Insert Data</string>
+    <string name="delete_title">Deletion Of Data</string>
+    <string name="update_title">Updating Data</string>
+    <string name="delete_txt_pass_key">Enter Key</string>
+    <string name="display_title">All Records</string>
+    <string name="display_passkey_column_header">Key</string>
+    <string name="display_password_column_header">Password</string>
+    <string name="display_username_column_header">Username</string>
+    <string name="update_txt_username">Username</string>
+    <string name="update_txt_pass_key">Enter Key</string>
+    <string name="update_txt_password">Enter Password</string>
+    <string name="update_search_btn">Search Key</string>
+    <string name="update_get_data_btn">Get Data</string>
+</resources>

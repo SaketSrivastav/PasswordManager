@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    
+    <TableRow android:id="@+id/row_username">
+  			<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/update_txt_username"
+			    android:gravity="center_horizontal"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="0"
+		    	/>
+		     <EditText 
+		     	android:id="@+id/update_key"
+			   	android:layout_width="fill_parent" 
+			   	android:minWidth="150sp"
+				android:layout_height="wrap_content"
+				android:inputType="text"
+				android:layout_weight="1"
+				android:textSize="15sp"
+		     />
+  </TableRow>
+  
+  <TableRow android:id="@+id/row_password">
+  			<TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/update_txt_password"
+			    android:gravity="center_horizontal"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="0"
+		    	/>
+		     <EditText
+			   	android:id="@+id/update_password"
+			   	android:layout_width="fill_parent" 
+			   	android:minWidth="150sp"
+				android:layout_height="wrap_content"
+				android:inputType="textPassword"
+				android:layout_weight="1"
+				android:textSize="15sp"
+				/>
+  </TableRow>
+  
+  <TableRow
+  	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:gravity="center_horizontal">
+  			<Button
+  				android:id="@+id/update_btn"
+  				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/update_btn"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+  			/>
+  			<Button
+  				android:id="@+id/update_btn_Back"
+  				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/btn_Back"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+  			/>
+  </TableRow>
+</TableLayout>

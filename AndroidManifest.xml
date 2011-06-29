@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.passwordmanager" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="8"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name=".FirstScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ChangeMasterPassword"/>
+        <activity android:name=".InsertData"/>
+        <activity android:name=".UpdateData"/>
+        <activity android:name=".DeleteData"/>
+        <activity android:name=".Controller"/>
+        <activity android:name=".DisplayAll"/>
+        <provider
+            android:authorities="com.passwordmanager.pm_master_passwordcontentprovider" android:name="com.passwordmanager.PM_MASTER_PASSWORDContentProvider"/>
+        <provider
+            android:authorities="com.passwordmanager.pm_stored_passwordcontentprovider" android:name="com.passwordmanager.PM_STORED_PASSWORDContentProvider"/>
+    </application>
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+  <TableLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TableRow> 
+			  <TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/txt_old_master_pass"
+			    android:gravity="center_horizontal"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="0"
+		    	/>
+		     <EditText
+			   	android:id="@+id/current_master_password"
+			   	android:layout_width="fill_parent" 
+			   	android:minWidth="150sp"
+				android:layout_height="wrap_content"
+				android:inputType="textPassword"
+				android:layout_weight="1"
+				android:textSize="15sp"
+				android:paddingRight="25dp"
+				/>
+		</TableRow>
+		<TableRow>
+			  <TextView  
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/txt_master_pass"
+			    android:gravity="center_horizontal"
+			    android:padding="10sp"
+			    android:textSize="15sp"
+			    android:layout_weight="0"
+		    	/>
+		     <EditText
+			   	android:id="@+id/new_master_password"
+			   	android:layout_width="fill_parent" 
+			   	android:minWidth="150sp"
+				android:layout_height="wrap_content"
+				android:inputType="textPassword"
+				android:layout_weight="1"
+				android:textSize="15sp"
+				/>
+		</TableRow>
+
+	<TableRow>
+		<Button 
+			android:id="@+id/change_master_password"
+		   	android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:text="@string/btn_change_master"
+			android:padding="10sp"
+		/>
+		<Button android:id="@+id/controller_back" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/btn_Back"
+				android:padding="10dp" />
+	</TableRow>
+</TableLayout>
